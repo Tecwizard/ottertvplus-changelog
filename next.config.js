@@ -2,7 +2,6 @@
 const nextConfig = {
   output: "export",
   basePath: "/ottertvplus-changelog",
-  assetPrefix: "/ottertvplus-changelog/",
   trailingSlash: true,
   images: {
     unoptimized: true

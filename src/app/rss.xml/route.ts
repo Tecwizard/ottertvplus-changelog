@@ -3,7 +3,7 @@ import { getAllPosts } from "@/lib/changelog";
 export async function GET() {
   const posts = getAllPosts();
 
-  const siteUrl = "https://Tecwizard.github.io/ottertvplus-changelog";
+  const siteUrl = "https://ottertvplus.netlify.app/";
 
   const rssItems = posts
     .map((post) => {

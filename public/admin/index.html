@@ -6,40 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <script type="module">
-      import CMS from "https://cdn.jsdelivr.net/npm/decap-cms@^3.0.0/dist/esm/decap-cms.js";
-
-      CMS.init({
-        config: {
-          backend: {
-            name: "github",
-            repo: "Tecwizard/ottertvplus-changelog",
-            branch: "main",
-            auth_type: "implicit",
-            client_id: "Ov23liEyAjumwEY3ozm5",
-            base_url: "/ottertvplus-changelog/admin"
-          },
-          media_folder: "public/uploads",
-          public_folder: "uploads",
-          collections: [
-            {
-              name: "changelog",
-              label: "Changelog Posts",
-              folder: "content/changelog",
-              create: true,
-              slug: "{{slug}}",
-              extension: "md",
-              format: "frontmatter",
-              fields: [
-                { label: "Title", name: "title", widget: "string" },
-                { label: "Date", name: "date", widget: "datetime" },
-                { label: "Excerpt", name: "excerpt", widget: "text" },
-                { label: "Tags", name: "tags", widget: "list", default: ["Update"] },
-                { label: "Body", name: "body", widget: "markdown" }
+    <script>
+      // Wait for DOM ready
+      window.addEventListener("DOMContentLoaded", function() {
+        const script = document.createElement("script");
+        script.src = "https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js";
+        script.onload = () => {
+          CMS.init({
+            config: {
+              backend: {
+                name: "github",
+                repo: "Tecwizard/ottertvplus-changelog",
+                branch: "main",
+                auth_type: "implicit",
+                client_id: "Ov23liEyAjumwEY3ozm5",
+                base_url: "/ottertvplus-changelog/admin"
+              },
+              media_folder: "public/uploads",
+              public_folder: "uploads",
+              collections: [
+                {
+                  name: "changelog",
+                  label: "Changelog Posts",
+                  folder: "content/changelog",
+                  create: true,
+                  slug: "{{slug}}",
+                  extension: "md",
+                  format: "frontmatter",
+                  fields: [
+                    { label: "Title", name: "title", widget: "string" },
+                    { label: "Date", name: "date", widget: "datetime" },
+                    { label: "Excerpt", name: "excerpt", widget: "text" },
+                    { label: "Tags", name: "tags", widget: "list", default: ["Update"] },
+                    { label: "Body", name: "body", widget: "markdown" }
+                  ]
+                }
               ]
             }
-          ]
-        }
+          });
+        };
+        document.body.appendChild(script);
       });
     </script>
   </body>

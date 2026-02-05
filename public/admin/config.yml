@@ -3,6 +3,8 @@ backend:
   repo: Tecwizard/ottertvplus-changelog
   branch: main
   base_url: "/ottertvplus-changelog/admin"
+  auth_type: implicit
+  client_id: "Ov23liEyAjumwEY3ozm5"
 
 media_folder: "public/uploads"
 public_folder: "uploads"

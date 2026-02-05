@@ -2,9 +2,10 @@ backend:
   name: github
   repo: Tecwizard/ottertvplus-changelog
   branch: main
+  base_url: "/ottertvplus-changelog/admin"
 
 media_folder: "public/uploads"
-public_folder: "/ottertvplus-changelog/uploads"
+public_folder: "uploads"
 
 collections:
   - name: "changelog"

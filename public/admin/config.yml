@@ -1,28 +1,2 @@
-backend:
-  name: github
-  repo: Tecwizard/ottertvplus-changelog
-  branch: main
-  base_url: "/ottertvplus-changelog/admin"
-  auth_type: implicit
-  client_id: "Ov23liEyAjumwEY3ozm5"
-
 media_folder: "public/uploads"
 public_folder: "uploads"
-
-collections:
-  - name: "changelog"
-    label: "Changelog Posts"
-    folder: "content/changelog"
-    create: true
-    slug: "{{slug}}"
-    extension: "md"
-    format: "frontmatter"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Excerpt", name: "excerpt", widget: "text" }
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        default: ["Update"]
-      - { label: "Body", name: "body", widget: "markdown" }

@@ -27,11 +27,11 @@ export default function HomePage() {
             </a>
             <span className="text-white/30">•</span>
             <a
-              href="https://jellyfin.org/"
+              href="https://jellyfin.arctic-fox.xyz/"
               target="_blank"
               className="hover:text-jellyfinPurple transition"
             >
-              Jellyfin →
+              Return to OtterTV+ →
             </a>
           </div>
         </div>

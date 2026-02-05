@@ -17,9 +17,9 @@ export default function RootLayout({
 
         <footer className="max-w-4xl mx-auto px-5 pb-12 pt-12 text-sm text-white/50">
           <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row gap-3 sm:gap-0 sm:justify-between">
-            <p>© {new Date().getFullYear()} OtterTV+</p>
+            <p>Copyright © {new Date().getFullYear()} Tech Otter</p>
             <p className="text-white/40">
-              Powered by Jellyfin • Built for GitHub Pages
+              Powered by GitHub Pages
             </p>
           </div>
         </footer>

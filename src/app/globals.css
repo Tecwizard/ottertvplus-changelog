@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --bg: #07070a;
+  --bg: radial-gradient(
+        circle at top,
+        #101830 0%,
+        #000B25 60%
+      );
   --panel: #0e0e14;
   --border: #1d1d28;
   --text: #e7e7f2;

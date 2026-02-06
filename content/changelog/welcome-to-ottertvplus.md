@@ -6,12 +6,15 @@ excerpt: OtterTV+ is now live! Today marks the official deployment of version
 tags:
   - Update
 ---
-![OtterTV+ Logo](uploads/splash-screen.png)
+![OtterTV+ Logo](\uploads/splash-screen.png)
 
-Welcome to **OtterTV+**! The streaming subscription service that doesn't require a subscription!
+# Welcome to **OtterTV+**! The streaming subscription service that doesn't require a subscription!
 
-With the move of Jellyfin from a VM on the Arctic-Fox server to it's own dedicated machine,\
-I felt it was more fitting to give the Jellyfin Server a new name and branding.
+
+
+With the move of Jellyfin from a VM on the Arctic-Fox server to it's own dedicated machine, I felt it was more fitting to give the Jellyfin Server a new name and branding.
+
+
 
 With the new server also comes this webpage which I will use to detail updated made to the server, such as:
 

@@ -8,7 +8,8 @@ tags:
 ---
 ![OtterTV+ Logo](/uploads/splash-screen.png)
 
-Welcome to **OtterTV+**! The streaming subscription service that doesn't require a subscription!
+
+## Welcome to **OtterTV+**! The streaming subscription service that doesn't require a subscription!
 
 
 

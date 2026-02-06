@@ -1,20 +1,25 @@
 ---
-title: "Welcome to OtterTV+"
-date: "2026-02-05"
-excerpt: "The changelog site is live! This is where all Jellyfin server updates will be posted."
+title: Welcome to OtterTV+
+date: 2025-09-06T22:00:00.000-04:00
+excerpt: OtterTV+ is now live! Today marks the official deployment of version
+  2.0 of the Jellyfin server.
 tags:
   - Update
 ---
+![OtterTV+ Logo](uploads/splash-screen.png)
 
-Welcome to the official **OtterTV+ Jellyfin changelog**.
+Welcome to **OtterTV+**! The streaming subscription service that doesn't require a subscription!
 
-From now on, any changes to the server will be tracked here, including:
+With the move of Jellyfin from a VM on the Arctic-Fox server to it's own dedicated machine,\
+I felt it was more fitting to give the Jellyfin Server a new name and branding.
 
-- New plugins
-- UI improvements
-- Metadata fixes
-- Library additions
-- Maintenance windows
-- Bug fixes and performance improvements
+With the new server also comes this webpage which I will use to detail updated made to the server, such as:
 
-Stay tuned!
+* New plugins
+* UI improvements
+* Metadata fixes
+* Library additions
+* Plugin and Software Updates
+* Bug fixes and performance improvements
+
+So welcome aboard and stay tuned for what's to come!

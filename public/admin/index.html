@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>OtterTV+ Changelog Admin</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <div id="nc-root"></div>
+
+  <!-- Decap CMS -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+  <!-- Netlify Identity Initialization -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-  const identity = netlifyIdentity.init();
-</script>
+  <script>
+    const identity = netlifyIdentity.init();
+
+    // Automatically login user if already logged in
+    identity.on('login', () => {
+      window.location.reload();
+    });
+
+    // If not logged in, open the GitHub login modal
+    if (!identity.currentUser()) {
+      identity.open('login');
+    }
+
+    // Initialize CMS after user is logged in
+    function startCMS() {
+      if (!identity.currentUser()) return;
+
+      Decap.init({
+        config: './config.yml'
+      });
+    }
+
+    // Poll for user login
+    const checkLogin = setInterval(() => {
+      if (identity.currentUser()) {
+        clearInterval(checkLogin);
+        startCMS();
+      }
+    }, 500);
+  </script>
 </body>
 </html>

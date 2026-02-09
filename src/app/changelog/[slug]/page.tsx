@@ -3,12 +3,12 @@ import { getPostBySlug, getAllPosts } from "@/lib/changelog";
 import Tag from "@/components/Tag";
 import { markdownToHtml } from "@/lib/markdown";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   const posts = getAllPosts();
   return posts.map((p) => ({ slug: p.slug }));
 }
 
-export default function ChangelogPostPage({
+export default async function ChangelogPostPage({
   params
 }: {
   params: { slug: string };

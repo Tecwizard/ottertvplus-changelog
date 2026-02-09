@@ -63,7 +63,7 @@ export default async function ChangelogPostPage({
       </header>
 
       <article
-        className="bg-deepPanel border border-deepBorder rounded-2xl p-7 sm:p-10 prose max-w-none otter-card"
+        className="bg-deepPanel border border-deepBorder rounded-2xl p-7 sm:p-10 prose max-w-none"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     </main>

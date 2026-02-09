@@ -3,6 +3,9 @@ import Tag from "@/components/Tag";
 import { markdownToHtml } from "@/lib/markdown";
 import { getAllPosts } from "@/lib/changelog";
 
+export const runtime = "nodejs";
+export const dynamic = "force-static";
+
 export async function generateStaticParams() {
   // Read all posts at build time
   const posts = getAllPosts();

@@ -28,7 +28,7 @@ export default function HomePage() {
             </a>
             <span className="text-white/30">•</span>
             <a
-              href="/rss.xml"
+              href="https://ottertvplus.netlify.app/rss.xml"
               className="hover:text-jellyfinBlue transition"
             >
               RSS Feed →

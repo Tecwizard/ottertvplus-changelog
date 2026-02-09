@@ -1,28 +1,33 @@
 import Link from "next/link";
+import { getPostBySlug, getAllPosts } from "@/lib/changelog";
 import Tag from "@/components/Tag";
 import { markdownToHtml } from "@/lib/markdown";
-import { getAllPosts } from "@/lib/changelog";
-import { notFound } from "next/navigation";
 
-export const dynamic = "force-static";
-
-export async function generateStaticParams() {
+export function generateStaticParams() {
   const posts = getAllPosts();
-
-  return posts.map((p) => ({
-    slug: p.slug,
-  }));
+  return posts.map((p) => ({ slug: p.slug }));
 }
 
 export default function ChangelogPostPage({
-  params,
+  params
 }: {
   params: { slug: string };
 }) {
-  const posts = getAllPosts();
-  const post = posts.find((p) => p.slug === params.slug);
+  const post = getPostBySlug(params.slug);
 
-  if (!post) return notFound();
+  if (!post) {
+    return (
+      <main>
+        <h1 className="text-3xl font-bold mb-4">Post not found</h1>
+        <Link
+          href="/"
+          className="text-jellyfinBlue hover:text-jellyfinPurple transition"
+        >
+          ← Back to changelog
+        </Link>
+      </main>
+    );
+  }
 
   const html = markdownToHtml(post.content);
 
@@ -45,7 +50,7 @@ export default function ChangelogPostPage({
             {new Date(post.date).toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",
-              day: "numeric",
+              day: "numeric"
             })}
           </p>
 

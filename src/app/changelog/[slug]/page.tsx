@@ -3,8 +3,8 @@ import { getPostBySlug, getAllPosts } from "@/lib/changelog";
 import Tag from "@/components/Tag";
 import { markdownToHtml } from "@/lib/markdown";
 
+export const runtime = "nodejs";
 export const dynamic = "force-static";
-export const revalidate = false;
 
 export async function generateStaticParams() {
   const posts = getAllPosts();

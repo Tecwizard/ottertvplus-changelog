@@ -2,6 +2,9 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/changelog";
 import Tag from "@/components/Tag";
 
+export const runtime = "nodejs";
+export const dynamic = "force-static";
+
 export default function HomePage() {
   const posts = getAllPosts();
 

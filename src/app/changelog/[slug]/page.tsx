@@ -2,37 +2,27 @@ import Link from "next/link";
 import Tag from "@/components/Tag";
 import { markdownToHtml } from "@/lib/markdown";
 import { getAllPosts } from "@/lib/changelog";
-
-export const runtime = "nodejs";
-export const dynamic = "force-static";
+import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
-  // Read all posts at build time
   const posts = getAllPosts();
 
-  // Pass both slug and full content to the page
   return posts.map((p) => ({
     slug: p.slug,
-    title: p.title,
-    date: p.date,
-    excerpt: p.excerpt,
-    tags: p.tags,
-    content: p.content,
   }));
 }
 
-type ChangelogParams = {
-  slug: string;
-  title: string;
-  date: string;
-  excerpt: string;
-  tags: string[];
-  content: string;
-};
+export default function ChangelogPostPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const posts = getAllPosts();
+  const post = posts.find((p) => p.slug === params.slug);
 
-export default function ChangelogPostPage({ params }: { params: ChangelogParams }) {
-  // Use the content passed from generateStaticParams
-  const html = markdownToHtml(params.content);
+  if (!post) return notFound();
+
+  const html = markdownToHtml(post.content);
 
   return (
     <main>
@@ -45,12 +35,12 @@ export default function ChangelogPostPage({ params }: { params: ChangelogParams 
         </Link>
 
         <h1 className="text-4xl font-bold tracking-tight mt-4">
-          {params.title}
+          {post.title}
         </h1>
 
         <div className="mt-4 flex flex-wrap items-center gap-3">
           <p className="text-sm text-white/50">
-            {new Date(params.date).toLocaleDateString("en-US", {
+            {new Date(post.date).toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",
               day: "numeric",
@@ -58,7 +48,7 @@ export default function ChangelogPostPage({ params }: { params: ChangelogParams 
           </p>
 
           <div className="flex gap-2 flex-wrap">
-            {params.tags.map((t) => (
+            {post.tags.map((t) => (
               <Tag key={t} label={t} />
             ))}
           </div>

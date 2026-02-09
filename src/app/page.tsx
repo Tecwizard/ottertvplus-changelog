@@ -41,7 +41,7 @@ export default function HomePage() {
         {posts.map((post) => (
           <article
             key={post.slug}
-            className="bg-deepPanel border border-deepBorder rounded-2xl p-6 hover:border-jellyfinPurple/50 transition"
+            className="bg-deepPanel border border-deepBorder rounded-2xl p-6 hover:border-jellyfinPurple/50 transition otter-card"
           >
             <div className="flex flex-col gap-3">
               <div className="flex flex-wrap items-center gap-2">

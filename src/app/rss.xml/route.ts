@@ -1,6 +1,8 @@
 import { getAllPosts } from "@/lib/changelog";
 
 export async function GET() {
+  const dynamic = 'force-static';
+
   const posts = getAllPosts();
 
   const siteUrl = "https://ottertvplus.netlify.app/";

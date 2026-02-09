@@ -1,9 +1,11 @@
 import { getAllPosts } from "@/lib/changelog";
 
+export const dynamic = "force-static";
+
 export async function GET() {
   const posts = getAllPosts();
 
-  const siteUrl = "https://ottertvplus.netlify.app/";
+  const siteUrl = "https://ottertvplus.netlify.app";
 
   const rssItems = posts
     .map((post) => {

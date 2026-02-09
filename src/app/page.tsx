@@ -20,18 +20,18 @@ export default function HomePage() {
 
           <div className="flex gap-3 text-sm text-white/60">
             <a
-              href="/ottertvplus-changelog/rss.xml"
-              className="hover:text-jellyfinBlue transition"
-            >
-              RSS Feed →
-            </a>
-            <span className="text-white/30">•</span>
-            <a
               href="https://jellyfin.arctic-fox.xyz/"
               target="_blank"
               className="hover:text-jellyfinPurple transition"
             >
-              Return to OtterTV+ →
+              ← Return to OtterTV+
+            </a>
+            <span className="text-white/30">•</span>
+            <a
+              href="/ottertvplus-changelog/rss.xml"
+              className="hover:text-jellyfinBlue transition"
+            >
+              RSS Feed →
             </a>
           </div>
         </div>

@@ -68,7 +68,7 @@ export default function HomePage() {
 
               <div>
                 <Link
-                  href={`/changelog/${post.slug}`}
+                  href={`/changelog/${post.slug}/`}
                   className="text-jellyfinBlue hover:text-jellyfinPurple transition font-semibold"
                 >
                   Read more →

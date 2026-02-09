@@ -1,6 +1,6 @@
 ---
 title: Welcome to OtterTV+
-date: 2025-09-06T22:00:00.000-04:00
+date: 2025-09-06T20:00:00.000-04:00
 excerpt: OtterTV+ is now live! Today marks the official deployment of version
   2.0 of the Jellyfin server.
 tags:

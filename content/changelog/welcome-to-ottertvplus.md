@@ -6,7 +6,7 @@ excerpt: OtterTV+ is now live! Today marks the official deployment of version
 tags:
   - Update
 ---
-![OtterTV+ Logo](\uploads/splash-screen.png)
+![OtterTV+ Logo](/uploads/splash-screen.png)
 
 # Welcome to **OtterTV+**! The streaming subscription service that doesn't require a subscription!
 

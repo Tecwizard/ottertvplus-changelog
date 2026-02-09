@@ -1,38 +1,35 @@
 import Link from "next/link";
-import { getPostBySlug, getAllPosts } from "@/lib/changelog";
 import Tag from "@/components/Tag";
 import { markdownToHtml } from "@/lib/markdown";
-
-export const runtime = "nodejs";
-export const dynamic = "force-static";
+import { getAllPosts } from "@/lib/changelog";
 
 export async function generateStaticParams() {
+  // Read all posts at build time
   const posts = getAllPosts();
-  return posts.map((p) => ({ slug: p.slug }));
+
+  // Pass both slug and full content to the page
+  return posts.map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    date: p.date,
+    excerpt: p.excerpt,
+    tags: p.tags,
+    content: p.content,
+  }));
 }
 
-export default async function ChangelogPostPage({
-  params
-}: {
-  params: { slug: string };
-}) {
-  const post = getPostBySlug(params.slug);
+type ChangelogParams = {
+  slug: string;
+  title: string;
+  date: string;
+  excerpt: string;
+  tags: string[];
+  content: string;
+};
 
-  if (!post) {
-    return (
-      <main>
-        <h1 className="text-3xl font-bold mb-4">Post not found</h1>
-        <Link
-          href="/"
-          className="text-jellyfinBlue hover:text-jellyfinPurple transition"
-        >
-          ← Back to changelog
-        </Link>
-      </main>
-    );
-  }
-
-  const html = markdownToHtml(post.content);
+export default function ChangelogPostPage({ params }: { params: ChangelogParams }) {
+  // Use the content passed from generateStaticParams
+  const html = markdownToHtml(params.content);
 
   return (
     <main>
@@ -45,20 +42,20 @@ export default async function ChangelogPostPage({
         </Link>
 
         <h1 className="text-4xl font-bold tracking-tight mt-4">
-          {post.title}
+          {params.title}
         </h1>
 
         <div className="mt-4 flex flex-wrap items-center gap-3">
           <p className="text-sm text-white/50">
-            {new Date(post.date).toLocaleDateString("en-US", {
+            {new Date(params.date).toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",
-              day: "numeric"
+              day: "numeric",
             })}
           </p>
 
           <div className="flex gap-2 flex-wrap">
-            {post.tags.map((t) => (
+            {params.tags.map((t) => (
               <Tag key={t} label={t} />
             ))}
           </div>

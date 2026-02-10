@@ -60,7 +60,7 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="preview-content" />
+              <div className="preview-content">
                 <h2 className="text-xl sm:text-2xl font-semibold tracking-tight">
                   {post.title}
                 </h2>

@@ -66,9 +66,7 @@ export default function HomePage() {
                 </h2>
 
                 <p className="text-white/70 leading-relaxed">{post.excerpt}</p>
-                
-                <br/>
-                
+                                
                 {post.image && (
                   <img
                     src={post.image}
@@ -80,7 +78,7 @@ export default function HomePage() {
               <div>
                 <Link
                   href={`/changelog/${post.slug}/`}
-                  className="text-jellyfinBlue hover:text-jellyfinPurple transition font-semibold"
+                  className="mt-4 text-jellyfinBlue hover:text-jellyfinPurple transition font-semibold"
                 >
                   Read more →
                 </Link>

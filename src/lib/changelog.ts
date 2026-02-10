@@ -9,6 +9,7 @@ export type ChangelogPost = {
   excerpt: string;
   tags: string[];
   content: string;
+  image: string;
 };
 
 const changelogDir = path.join(process.cwd(), "content/changelog");
@@ -30,7 +31,8 @@ export function getAllPosts(): ChangelogPost[] {
         date: data.date ?? new Date().toISOString(),
         excerpt: data.excerpt ?? "",
         tags: data.tags ?? [],
-        content
+        content,
+        image: data.image ?? ""
       };
     });
 
@@ -51,6 +53,7 @@ export function getPostBySlug(slug: string): ChangelogPost | null {
     date: data.date ?? new Date().toISOString(),
     excerpt: data.excerpt ?? "",
     tags: data.tags ?? [],
+    image: data.image ?? "",
     content
   };
 }

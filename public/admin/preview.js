@@ -1,4 +1,4 @@
-CMS.registerPreviewStyle("/styles/globals.css");
+CMS.registerPreviewStyle("./posts.css");
 
 CMS.registerPreviewTemplate("changelog", ({ entry }) => {
   const title = entry.getIn(["data", "title"]) || "Untitled";

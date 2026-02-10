@@ -10,7 +10,7 @@ image: https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWJrMjhrdWM5NGJ6b3N5YTh
 
 ## Well that didn't go acording to plan...
 
-During the uploading of The Legend of Kora I ran into a wall. More specifically an error I could not easily solve: `"Unable to Complete Upload, No More Space on Disk"`
+During the uploading of The Legend of Kora I ran into a wall. More specifically an error I could not easily solve: `Unable to Complete Upload, No More Space on Disk`
 
 That's right, the ZFS configuration left only 4TB of usable space on the server and I had used up the remaining free space. "Well that's no problem, just slap another drive in there" you might say. Unfortunetly it's not as simple as that.
 

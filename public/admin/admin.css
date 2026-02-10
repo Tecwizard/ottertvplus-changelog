@@ -2,6 +2,7 @@
 body {
   background: radial-gradient(circle at top, #101830 0%, #000B25 60%) !important;
   color: #e6f4ff !important;
+  background-repeat: no-repeat !important;
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Ubuntu, sans-serif !important;
 }

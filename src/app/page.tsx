@@ -63,10 +63,12 @@ export default function HomePage() {
               
                 <h2 className="text-xl sm:text-2xl font-semibold tracking-tight">
                   {post.title}
-                </h2><br/>
+                </h2>
 
                 <p className="text-white/70 leading-relaxed">{post.excerpt}</p>
-
+                
+                <br/>
+                
                 {post.image && (
                   <img
                     src={post.image}

@@ -60,15 +60,13 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="preview-content">
+              
                 <h2 className="text-xl sm:text-2xl font-semibold tracking-tight">
                   {post.title}
-                </h2>
+                </h2><br/>
 
                 <p className="text-white/70 leading-relaxed">{post.excerpt}</p>
-              </div>
 
-              <div className="right-6 mt-4 preview-image">
                 {post.image && (
                   <img
                     src={post.image}
@@ -76,7 +74,6 @@ export default function HomePage() {
                     className="rounded-lg border border-deepBorder object-cover max-h-48 w-full"
                   />
                 )}
-              </div>
 
               <div>
                 <Link

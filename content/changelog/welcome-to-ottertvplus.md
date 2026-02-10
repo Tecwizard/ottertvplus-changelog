@@ -5,6 +5,7 @@ excerpt: OtterTV+ is now live! Today marks the official deployment of version
   2.0 of the Jellyfin server.
 tags:
   - Update
+image: /uploads/splash-screen.png
 ---
 ![OtterTV+ Logo](/uploads/splash-screen.png)
 

@@ -3,7 +3,7 @@ title: Change of Plans...
 date: 2025-11-24T12:00:00.000-04:00
 excerpt: Unfortunetly things didn't work out as I hoped. The server is now completly full and adding another drive wasn't as trivial as I had hoped... 
 tags:
-  - Update
+  - Issue
 image: https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWJrMjhrdWM5NGJ6b3N5YTh1bTQ3Mnk3ODRveGY4d2Jma2poeDZjcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8vIFoKU8s4m4CBqCao/giphy.gif
 ---
 ![GIF of CJ From San Andreas Going "Aw shit, here we go again."](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWJrMjhrdWM5NGJ6b3N5YTh1bTQ3Mnk3ODRveGY4d2Jma2poeDZjcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8vIFoKU8s4m4CBqCao/giphy.gif)

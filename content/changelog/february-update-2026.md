@@ -18,6 +18,8 @@ Next we have some new plugins, with the major one being 'Jellyfin Enhanced'. Thi
 
 From now on please use the Jellyfin interface on Desktop or Mobile to request movies as it seems to be more reliable than the Jellyseerr site which seems to be a bit unstable at the moment.
 
+Not sure what to watch? Now there's a randomizer on the top-right of the screen. Click the Dice Icon and you will be taken to a random Movie or TV Show. Now you don't have to scroll for half an hour trying to decide what to watch!
+
 I have also managed to finally replace all the Jellyfin logos with the OtterTV+ Logo. You will see this change on Desktop, Mobile, and on Roku. An into splashscreen may also get added in the future. ;)
 
 Specials have also been fixed for TV Shows. Now they will display both in the "Specials" season and within the season they pair with. For example, the Sherlock special that aired after Season 3 but before Season 4 displays at the end of Season 3.

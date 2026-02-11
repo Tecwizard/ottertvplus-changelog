@@ -20,7 +20,7 @@ From now on please use the Jellyfin interface on Desktop or Mobile to request mo
 
 I have also managed to finally replace all the Jellyfin logos with the OtterTV+ Logo. You will see this change on Desktop, Mobile, and on Roku. An into splashscreen may also get added in the future. ;)
 
-Specials have also been fixed for TV Shows. Now they will display both in the "Specials" season and within the season they pair with. For example, the Sherlock special that aired after Season 3 but before Season 4 so it displays at the end of Season 3.
+Specials have also been fixed for TV Shows. Now they will display both in the "Specials" season and within the season they pair with. For example, the Sherlock special that aired after Season 3 but before Season 4 displays at the end of Season 3.
 
 Finally, here is the new/updated media on the server:
 

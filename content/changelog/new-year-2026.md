@@ -6,7 +6,7 @@ tags:
   - Update
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzzQRA2YBqgLo0r96at38Pv6iBk7OfusfUg&s
 ---
-!(A Cute Otter saying "Haaaaaappy New Year")[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzzQRA2YBqgLo0r96at38Pv6iBk7OfusfUg&s]
+![A Cute Otter saying "Haaaaaappy New Year"](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzzQRA2YBqgLo0r96at38Pv6iBk7OfusfUg&s)
 
 ## Happy (Late) New Year!
 

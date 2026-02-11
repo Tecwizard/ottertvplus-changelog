@@ -6,7 +6,7 @@ tags:
   - Update
 image: https://images.vexels.com/media/users/3/271845/raw/10a335a868e06438b0799301855ebccc-otter-eating-christmas-cookies-illustration.jpg
 ---
-!(An Otter eating Santa's Cookies)[https://images.vexels.com/media/users/3/271845/raw/10a335a868e06438b0799301855ebccc-otter-eating-christmas-cookies-illustration.jpg]
+![An Otter eating Santa's Cookies](https://images.vexels.com/media/users/3/271845/raw/10a335a868e06438b0799301855ebccc-otter-eating-christmas-cookies-illustration.jpg)
 
 ## Merry (Early) Christmas!
 

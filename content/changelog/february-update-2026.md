@@ -6,7 +6,7 @@ tags:
   - Update
 image: https://ih1.redbubble.net/image.5520482966.3105/raf,360x360,075,t,fafafa:ca443f4786.jpg
 ---
-!(An otter working on a laptop while two smaller otters watch)[https://ih1.redbubble.net/image.5520482966.3105/raf,360x360,075,t,fafafa:ca443f4786.jpg]
+![An otter working on a laptop while two smaller otters watch](https://ih1.redbubble.net/image.5520482966.3105/raf,360x360,075,t,fafafa:ca443f4786.jpg)
 
 ### In otter news...
 

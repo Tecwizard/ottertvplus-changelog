@@ -36,7 +36,7 @@ Still to do:
 
 * Top Gun (1080p -> 4K)
 * Top Gun Maverick (1080p -> 4K)
-* Casin (1080p -> 4K)
+* Casino (1080p -> 4K)
 * Oppenheimer (1080p -> 4K)
     * Honestly forgot about this one
 * Apollo 13 (1080p -> 4K)

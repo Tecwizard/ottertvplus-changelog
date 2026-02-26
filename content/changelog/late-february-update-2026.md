@@ -13,7 +13,7 @@ image: /uploads/this-is-fine.jpg
 
 Well that's a bit of an exageration but we did have a critical incident over the weekend that took the server offline for a few days.
 
-First, since this post will be a bit long detailing the incident, I will list the movies that are now available for your enjoyment:
+First, since this post will be a bit long detailing the incident, I will list the movies that are now available for your enjoyment first:
 * Five Nights at Freddy's 2
 * Now You See Me, Now You Don't
 

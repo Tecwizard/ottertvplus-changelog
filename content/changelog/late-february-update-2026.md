@@ -7,7 +7,7 @@ tags:
 image: /uploads/this-is-fine.jpg
 ---
 
-![A dog sitting inside a buning kitchen with the caption "This is fine"](/uploads/this-is-fine.gif)
+![A dog sitting inside a buning kitchen with the caption "This is fine"](/uploads/this-is-fine.jpg)
 
 ### It almost went up in smoke...almost...
 

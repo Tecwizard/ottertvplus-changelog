@@ -16,7 +16,7 @@ image: /uploads/april-meme.png
 This week I have added the following movies for your enjoyment:
 
 * How To Train Your Tragon (2025)
- * *This has been on the request list since it released on DVD/Blu-ray*
+  * *This has been on the request list since it released on DVD/Blu-ray*
 * Johnny English (2003)
 * Johnny English Reborn (2011)
 * Johnny English Strikes Again (2018)
@@ -26,7 +26,7 @@ This week I have added the following movies for your enjoyment:
 * The 6th Day (2000)
 * Total Recall (1990)
 * Wish Dragon (2021)
- * *"Wait, I don't remember this having a DVD Rele-"*
+  * *"Wait, I don't remember this having a DVD Rele-"*
  !["Lobo (Death) from Puss in Boots hushing you and saying "Shhh... Don't Tell"](/uploads/lobo-shh.gif)
 
 The Following movies have been upgraded to 4K UHD:

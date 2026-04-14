@@ -27,7 +27,7 @@ This week I have added the following movies for your enjoyment:
 * Total Recall (1990)
 * Wish Dragon (2021)
  * *"Wait, I don't remember this having a DVD Rele-"*
- ["Lobo (Death) from Puss in Boots hushing you and saying "Shhh... Don't Tell"](/uploads/lobo-shh.gif)
+ !["Lobo (Death) from Puss in Boots hushing you and saying "Shhh... Don't Tell"](/uploads/lobo-shh.gif)
 
 The Following movies have been upgraded to 4K UHD:
 * Batman Begins [480p -> 4K UHD HDR]

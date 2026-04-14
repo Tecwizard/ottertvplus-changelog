@@ -6,6 +6,7 @@ tags:
   - Update
   - New Movies
   - New Shows
+  - Updated Movies
 image:
 ---
 

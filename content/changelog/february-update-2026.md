@@ -4,7 +4,7 @@ date: 2026-02-11T12:00:00.000-04:00
 excerpt: A lot of new changes have been made the past few weeks along with new media to enjoy... 
 tags:
   - Update
-  - New Movies
+  - Updated Movies
   - New Shows
 image: https://ih1.redbubble.net/image.5520482966.3105/raf,360x360,075,t,fafafa:ca443f4786.jpg
 ---

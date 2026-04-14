@@ -4,6 +4,8 @@ date: 2026-01-29T12:00:00.000-04:00
 excerpt: As the first month of 2026 draws to a close, I have some new media and some updated media to share as well as some hardware updates...kinda... 
 tags:
   - Update
+  - New Movies
+  - New Shows
 image:
 ---
 

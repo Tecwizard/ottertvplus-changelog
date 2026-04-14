@@ -4,6 +4,7 @@ date: 2026-01-15T12:00:00.000-04:00
 excerpt: New year, new media... Okay well it's not new exactly but it's new to the server. This update focuses mainly on new media...
 tags:
   - Update
+  - New Movies
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzzQRA2YBqgLo0r96at38Pv6iBk7OfusfUg&s
 ---
 ![A Cute Otter saying "Haaaaaappy New Year"](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzzQRA2YBqgLo0r96at38Pv6iBk7OfusfUg&s)
@@ -20,7 +21,7 @@ New Year, new media for the server. Today the following movies have been added t
 * National Lampoon's Loaded Weapon 1 (1993)
 * Matilda (1996)
 * Glass Onion: A Knives Out Mystery (2022)
-  * Don't ask how, just accept it
+  * *Don't ask how, just accept it*
 
 If you wish to request a Movie, TV Show, or Anime, you can do so using [Jellyseerr](https://jellyseerr.arctic-fox.xyz/), just login using your Jellyfin username and password.
 

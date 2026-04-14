@@ -4,6 +4,7 @@ date: 2026-02-26T12:00:00.000-04:00
 excerpt: While there isn't much updates to report, the month of February was not uneventful either. Let's just say there was an incident last week... 
 tags:
   - Update
+  - New Movies
 image: /uploads/this-is-fine.jpg
 ---
 

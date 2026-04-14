@@ -4,6 +4,7 @@ date: 2026-03-31T12:00:00.000-04:00
 excerpt: There isn't much updates to report this month, only that Zootopia 2 has been added. But hey, click "Read More" anyways if you want...
 tags:
   - Update
+  - New Movies
 image: /uploads/nothing-to-see-here.gif
 ---
 

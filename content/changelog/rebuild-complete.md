@@ -4,6 +4,8 @@ date: 2025-11-22T12:00:00.000-04:00
 excerpt: The server rebuild is complete with all the new upgrades. 
 tags:
   - Update
+  - New Movies
+  - New Shows
 image:
 ---
 

@@ -5,6 +5,7 @@ excerpt: New movies have been added for your enjoyment as well as 4K UHD Upgrade
 tags:
   - Update
   - New Movies
+  - New Shows
   - Updated Movies
 image: /uploads/april-meme.png
 ---
@@ -35,5 +36,7 @@ The Following movies have been upgraded to 4K UHD:
 * The Dark Knight [480p -> 4K UHD HDR]
 * The Dark Knight Rises [480p -> 4K UHD HDR]
 * Kindergarden Cop [480p -> 4K UHD]
+
+I'm also happy to announce that **The Looney Tunes Show (2011)** has been added in its entirety! I gotta thank ShowBox (Febbox) and Sam Register (Archive.org) for making the show available for all, especially since The Looney Tunes Show is out of print and has never been released in it's entirety (Only Season 1 is out on DVD in multiple parts). While only Season 2 is available on Archive.org, both seasons are available on Febbox if you know where to look.
 
 I'm also gonna have to start looking into adding a fith and maybe even a sixth hard drive into the server as the four existing drives are nearing full capacity. Though thanks to the AI Bubble, storage prices are unreasonably high. I got months to weigh my options so we'll see.

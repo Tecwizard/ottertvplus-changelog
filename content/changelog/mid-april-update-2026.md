@@ -1,7 +1,7 @@
 ---
 title: Mid-April Update
-date: 2026-04-14T12:00:00.000-04:00
-excerpt: New movies have been added for your enjoyment as well as 4K UHD Upgrades to some existing movies. Click "Read more" to see the full list...
+date: 2026-04-15T12:00:00.000-04:00
+excerpt: The server has been updated, some new media has been added, as well as 4K UHD Upgrades to some existing movies...
 tags:
   - Update
   - New Movies
@@ -12,9 +12,11 @@ image: /uploads/april-meme.png
 
 !["I don't know where this is from, It's just a random \"Snows in April\" meme I found on google."](/uploads/april-meme.png)
 
-### New movies have been added...
+### The carousel of progress stops for no one...
 
-This week I have added the following movies for your enjoyment:
+This week I have updated the server to the latest version of Jellyfin, 10.11.8. This update includes a lot of bug fixes and some important security fixes. I also added a dismissable banner at the top of the page to promote this changelog site. I'll probably add seasonal messages and such later on but for now I just have the single message enabled.
+
+With that said, I have added the following movies for your enjoyment:
 
 * How To Train Your Tragon (2025)
     * *This has been on the request list since it released on DVD/Blu-ray*
